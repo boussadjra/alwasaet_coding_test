@@ -1,6 +1,6 @@
 import { computed, ref } from 'vue'
 
-import { Message } from '@/api/inbox';
+import type { Message } from '@/api/inbox';
 import { useArchiveStore } from '@/stores/archive';
 import { useInboxStore } from '@/stores/inbox'
 

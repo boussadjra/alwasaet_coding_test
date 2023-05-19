@@ -7,7 +7,6 @@ import EmailSidebar from './components/EmailSidebar.vue';
     <div class="email-layout">
         <EmailSidebar />
         <EmailHeader />
-
         <slot></slot>
 
     </div>

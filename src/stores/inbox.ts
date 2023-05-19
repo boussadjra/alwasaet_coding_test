@@ -1,7 +1,8 @@
-import { Message, fetchMessages } from '@/api/inbox'
 import { computed, ref } from 'vue'
 
+import type { Message } from '@/api/inbox'
 import { defineStore } from 'pinia'
+import { fetchMessages } from '@/api/inbox'
 
 export const useInboxStore = defineStore('inbox', () => {
     const messages = ref<Message[]>([])

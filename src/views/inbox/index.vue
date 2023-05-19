@@ -7,7 +7,7 @@ import List from '@/components/app/list/List.vue';
 import AppSpinner from '@/components/app/AppSpinner.vue';
 import { useInbox } from './composables/useInbox';
 import { ref } from 'vue';
-import { Message } from '@/api/inbox';
+import type { Message } from '@/api/inbox';
 import { useSelectAll } from '@/composables/useSelectAll';
 
 const {

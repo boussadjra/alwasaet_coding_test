@@ -1,5 +1,6 @@
-import { RouteRecordRaw, useRoute, useRouter } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 
+import type { RouteRecordRaw } from 'vue-router'
 import { computed } from 'vue';
 import { useArchiveStore } from '@/stores/archive'
 import { useInboxStore } from '@/stores/inbox'

@@ -1,4 +1,6 @@
-import { Ref, computed, ref, watch } from "vue";
+import { computed, ref, watch } from "vue";
+
+import type { Ref } from 'vue'
 
 export function useSelectAll<T extends {}>(items: Ref<T[]>, selectedItems: Ref<T[]>) {
     const selectAll = ref(false)

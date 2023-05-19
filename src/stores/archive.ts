@@ -1,4 +1,4 @@
-import { Message, } from '@/api/inbox'
+import type { Message, } from '@/api/inbox'
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
