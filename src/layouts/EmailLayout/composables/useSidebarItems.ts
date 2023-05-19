@@ -21,7 +21,7 @@ export function useSidebarItems() {
         }
         return 0
     }
-    const routes = computed(() => router.getRoutes().map((route) => {
+    const routes = computed(() => router.getRoutes().filter(route => route.meta.layout === "email-layout").map((route) => {
         const meta = route.meta
         return {
             ...route,
